@@ -1,29 +1,32 @@
 @import "../../variables.css";
 
-
-.container{
+.container {
     color: var(--color-text);
     margin-top: 120px;
     background-color: var(--color-secondary);
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column; 
+    align-items: center; 
     width: 100vw;
     padding: 58px 10%;
-    gap: 10px;
+    gap: 40px; 
     z-index: 1;
-
 }
 
-.text h2{
+.text {
+    text-align: center; 
+}
+
+.text h2 {
     font-size: 80px;
     font-weight: 700;
     letter-spacing: 4px;
     z-index: 1;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px; 
 }
 
-.text p{
+.text p {
     font-size: 40px;
     font-weight: 400;
     letter-spacing: 2px;
@@ -31,28 +34,22 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.icon {
-    font-size: 24px; 
-    margin-top: 5px;
-  }
-
-.links{
+.links {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: column; 
+    align-items: center;
     list-style: none;
-    gap: 25px;
+    gap: 25px; 
     z-index: 1;
 }
 
-.link{
+.link {
     display: flex;
-    align-items: center;
-    gap: 25px;
-
+    align-items: center; 
+    gap: 15px; 
 }
 
-.link a{
+.link a {
     color: var(--color-text);
     text-decoration: none;
     font-size: 30px;
@@ -61,20 +58,25 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.icon {
+    font-size: 24px;
+    margin-top: 5px;
+}
 
-
-@media screen and (max-width : 830px) {
-    .container{
-        flex-direction: column;
-        gap: 23px;
+@media screen and (max-width: 830px) {
+    .container {
+        gap: 30px;
     }
 
-    .text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .text h2 {
+        font-size: 60px; 
     }
-    .links{
-        align-items: center;
+
+    .text p {
+        font-size: 30px; 
+    }
+
+    .link a {
+        font-size: 24px; 
     }
 }

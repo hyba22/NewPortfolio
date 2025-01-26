@@ -20,7 +20,7 @@ const Contact = () => {
           <BsLinkedin className={styles.icon} /> 
           <a href="https://www.linkedin.com/in/hiba-bouslahi-44b84b197/">linkedin.com/in/hiba-bouslahi</a>
         </li>
-        <li className={styles.link}>
+        <li className={styles.link}> 
           <FaGithub className={styles.icon} /> 
           <a href="https://github.com/hyba22">github.com/hyba22</a>
         </li>

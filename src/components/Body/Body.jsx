@@ -20,7 +20,7 @@ const Body = () => {
               "Decision Maker",
               "Web Developer",
               
-            ]}
+            ]} 
           />
         </div>
         <a className={styles.contactBtn} href="mailto:bouslahihiba55@gmail.com">
