@@ -15,7 +15,6 @@ const Project = () => {
             imageSrc={project.imageSrc}
             description={project.description}
             skills={project.skills}
-            demo={project.demo}
             source={project.source}
           />
         ))}

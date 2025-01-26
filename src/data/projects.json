@@ -4,23 +4,20 @@
       "imageSrc": "/assets/projects/code.jpg",
       "description": "This is a project made to create and show my skills.",
       "skills": ["React","Particles", "Css", "Html"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/hyba22/NewPortfolio"
     },
     { 
       "title": "To Do List",
       "imageSrc": "/assets/projects/code.jpg",
       "description": "This is a project made to learn Angular and PrimeNG. ",
       "skills": ["Angular",  "Spring boot", "JWT","PrimeNG"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/hyba22/TodoApp"
     },
     {
       "title": "Freelance Project",
       "imageSrc": "/assets/projects/code.jpg",
       "description": "This is a freelance project made to practice my skills.",
       "skills": ["React", "Jhipter","Spring boot", "Jwt"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/hyba22/xpsv3"
     }
   ]
