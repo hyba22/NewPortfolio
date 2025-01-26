@@ -1,0 +1,14 @@
+/* 
+file dedicated to css variables, it helps with fonts and certain properties
+*/
+:root {
+    /* colors variables*/
+    --color-text : #fff;
+    --color-primary: #873ba8;
+    --color-secondary : #4e066d;
+    --color-dark : #87299a;
+    --color-bg: #500660;
+
+    /* fonts */
+    
+}

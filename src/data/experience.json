@@ -1,0 +1,19 @@
+[
+    {
+      "role": "Web devoloper",
+      "organisation": " La Poste Tunisienne ",
+      "startDate": "Fev, 2022",
+      "endDate": "Juin, 2022",
+      "experiences": ["Worked on web application for interns", "Manage internships data with BI"],
+      "imageSrc": "/assets/experience/logo-laposte.png"
+    },
+    {
+      "role": "UI Designer",
+      "organisation": "Freelance",
+      "startDate": "Juillet, 2022",
+      "endDate": "Present",
+      "experiences": ["Creating friendly user interfaces", "Design interfaces with Figma"],
+      "imageSrc": "/assets/experience/freelance.png"
+    }
+
+]

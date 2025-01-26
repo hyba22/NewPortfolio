@@ -1,0 +1,38 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "/assets/skills/html5.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "/assets/skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "/assets/skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "/assets/skills/nodeJs.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "/assets/skills/sql.png"
+  },
+  {
+    "title": "PLSQL",
+    "imageSrc": "/assets/skills/plsql.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "/assets/skills/mongodb.png"
+  },
+  {
+    "title": "Spring boot",
+    "imageSrc": "/assets/skills/springboot.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "/assets/skills/figma.png"
+  }
+]
