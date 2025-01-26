@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./body.module.css";
-import hyba2 from "../../../assets/myPic/hyba2.jpeg";
+import hyba2 from "../../../public/assets/myPic/hyba2.jpeg";
 import ReactTypingEffect from "react-typing-effect";
 
 const Body = () => {
