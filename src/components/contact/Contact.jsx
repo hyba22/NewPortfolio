@@ -3,7 +3,7 @@ import styles from './contact.module.css';
 import { MdEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-
+ 
 const Contact = () => {
   return (
     <footer className={styles.container} id='contact'>
@@ -11,6 +11,7 @@ const Contact = () => {
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>
       </div>
+      <div className={styles.listContainer}>
       <ul className={styles.links}>
         <li className={styles.link}>
           <MdEmail className={styles.icon} /> 
@@ -25,6 +26,7 @@ const Contact = () => {
           <a href="https://github.com/hyba22">github.com/hyba22</a>
         </li>
       </ul>
+    </div>
     </footer>
   );
 };

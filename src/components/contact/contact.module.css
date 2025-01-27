@@ -11,6 +11,7 @@
     padding: 58px 10%;
     gap: 40px; 
     z-index: 1;
+    overflow: hidden;
 }
 
 .text {
@@ -34,17 +35,23 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.listContainer{
+    display: flex;
+}
+
 .links {
-    display: flex; 
+    display: block; 
     flex-direction: column; 
     list-style: none;
-    gap: 25px; 
+    gap: 25px;  
     z-index: 1;
 }
+
 
 .link {
     display: flex;
     gap: 15px; 
+    margin: 10px;
 }
 
 .link a {
@@ -54,6 +61,8 @@
     font-weight: 400;
     letter-spacing: 1.5px;
     font-family: 'Times New Roman', Times, serif;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
 }
 
 .icon {
@@ -78,8 +87,13 @@
     .links{
         align-items: center;
     }
+    .listContainer{
+        justify-content: center;
+    }
 
     .link a {
         font-size: 24px; 
+        word-wrap: break-word; 
+        overflow-wrap: break-word; 
     }
 }
