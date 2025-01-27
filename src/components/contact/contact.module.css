@@ -108,5 +108,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-
+    .icon{
+        font-size: 1rem !important;
+    }
 }
