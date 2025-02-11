@@ -14,10 +14,10 @@
       "source": "https://github.com/hyba22/TodoApp"
     },
     {
-      "title": "Freelance Project",
+      "title": "Mini Project",
       "imageSrc": "/assets/projects/code.jpg",
-      "description": "This is a freelance project made to practice my skills.",
-      "skills": ["React", "Jhipter","Spring boot", "Jwt"],
-      "source": "https://github.com/hyba22/xpsv3"
+      "description": "This is a mini project made to practice my skills in C#.",
+      "skills": ["Crud", "C sharp","SQLite", "Forms"],
+      "source": "https://github.com/hyba22/gestionAnimalerie"
     }
   ]
